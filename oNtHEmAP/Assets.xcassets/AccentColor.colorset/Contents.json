@@ -1,11 +1,213 @@
 {
   "colors" : [
     {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
       "idiom" : "universal"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "iphone"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "ipad"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "ipad",
+      "subtype" : "mac-catalyst"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "car"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "watch"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "tv"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "mac"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "universal",
+      "locale" : "en"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "iphone",
+      "locale" : "en"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "ipad",
+      "locale" : "en"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "ipad",
+      "locale" : "en",
+      "subtype" : "mac-catalyst"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "car",
+      "locale" : "en"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "watch",
+      "locale" : "en"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "tv",
+      "locale" : "en"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.895",
+          "green" : "0.705",
+          "red" : "0.278"
+        }
+      },
+      "idiom" : "mac",
+      "locale" : "en"
     }
   ],
   "info" : {
     "author" : "xcode",
     "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
   }
 }
