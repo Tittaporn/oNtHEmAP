@@ -6,10 +6,10 @@
 //
 
 import Foundation
-class UserInfo
-{
+class UserInfo {
     static var user: User? = nil
     static var currentLocationId: String = ""
+    static var studentLocations = [StudentLocation]()
     
     class func reset()
     {

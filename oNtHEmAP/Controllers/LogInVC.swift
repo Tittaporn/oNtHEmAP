@@ -9,41 +9,44 @@ import UIKit
 
 class LogInVC: UIViewController, UITextFieldDelegate {
     
+    //MARK : Variables
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var signUpButton: UIButton!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
-    let signUpUrl = OMTCilent.Endpoints.signUp.url
+    let signUpUrl = OMTClient.Endpoints.signUp.url
     var emailFieldIsEmpty: Bool = true
     var passwordFieldIsEmpty: Bool = true
     
+    //MARK : LifeCycles
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         emailTextField.delegate = self
         passwordTextField.delegate = self
         loginButton.isEnabled = false
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         emailTextField.text = ""
         passwordTextField.text = ""
+        setLogginIn(false)
     }
     
+    //MARK : Actions
     @IBAction func signUpTapped(_ sender: UIButton){
         setLogginIn(true)
         UIApplication.shared.open(signUpUrl, options: [:], completionHandler: nil)
     }
     
-    
     @IBAction func loginTapped(_ sender: UIButton) {
-        //performSegue(withIdentifier: "CompletedLogIn", sender: true)
         setLogginIn(true)
-        OMTCilent.login(username: emailTextField.text ?? "", password: passwordTextField.text ?? "", completion:  handleLoginResponse(success:error:))
+        OMTClient.login(username: emailTextField.text ?? "", password: passwordTextField.text ?? "", completion:  handleLoginResponse(success:error:))
     }
     
+    //MARK : Functions
     func handleLoginResponse(success: Bool, error: Error?) {
         setLogginIn(false)
         if success {
@@ -54,17 +57,9 @@ class LogInVC: UIViewController, UITextFieldDelegate {
     }
     
     func setLogginIn(_ logginIn: Bool){
-        if logginIn {
-            DispatchQueue.main.async {
-                self.activityIndicator.startAnimating()
-                self.loginButton.isEnabled = false
-            }
-        } else {
-            DispatchQueue.main.async {
-                self.activityIndicator.stopAnimating()
-                self.loginButton.isEnabled = true
-            }
-        }
+        logginIn ? self.activityIndicator.startAnimating() : self.activityIndicator.stopAnimating()
+        self.activityIndicator.isHidden = !logginIn
+        self.signUpButton.isEnabled = !logginIn
         emailTextField.isEnabled = !logginIn
         passwordTextField.isEnabled = !logginIn
         loginButton.isEnabled = !logginIn
@@ -78,6 +73,7 @@ class LogInVC: UIViewController, UITextFieldDelegate {
         show(alertVC, sender: nil)
     }
     
+    //MARK : TextFieldDelegate
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if textField == emailTextField {
             let currenText = emailTextField.text ?? ""

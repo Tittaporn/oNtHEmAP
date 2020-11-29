@@ -8,6 +8,5 @@
 import Foundation
 struct PostStudentLocation: Codable {
     let createdAt: String
-    //let createdAt: String
     let objectId: String
 }

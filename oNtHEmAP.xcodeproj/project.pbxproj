@@ -12,8 +12,8 @@
 		36194689256620AC00E3E7B2 /* PutStudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36194688256620AC00E3E7B2 /* PutStudentLocation.swift */; };
 		361946932566250800E3E7B2 /* DeleteSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361946922566250800E3E7B2 /* DeleteSession.swift */; };
 		36194698256626F200E3E7B2 /* GetUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36194697256626F200E3E7B2 /* GetUserData.swift */; };
+		3630C2E3257041CF00CF1BD3 /* OTMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630C2E2257041CF00CF1BD3 /* OTMManager.swift */; };
 		36644094256439F600343107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36644093256439F600343107 /* AppDelegate.swift */; };
-		36644096256439F600343107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36644095256439F600343107 /* SceneDelegate.swift */; };
 		36644098256439F600343107 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36644097256439F600343107 /* LogInVC.swift */; };
 		3664409B256439F600343107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36644099256439F600343107 /* Main.storyboard */; };
 		3664409D256439F700343107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3664409C256439F700343107 /* Assets.xcassets */; };
@@ -29,8 +29,9 @@
 		366AA6FF2569F41B005AEBF7 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366AA6FE2569F41B005AEBF7 /* LoginResponse.swift */; };
 		366AA7072569F54A005AEBF7 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366AA7062569F54A005AEBF7 /* UserInfo.swift */; };
 		368EBF6E25659CBB00821A29 /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368EBF6D25659CBB00821A29 /* StudentLocation.swift */; };
-		368EBF772565B24000821A29 /* OTMCilent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368EBF762565B24000821A29 /* OTMCilent.swift */; };
+		368EBF772565B24000821A29 /* OTMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368EBF762565B24000821A29 /* OTMClient.swift */; };
 		368EBF7C2565C23E00821A29 /* OTMResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368EBF7B2565C23E00821A29 /* OTMResponse.swift */; };
+		36D463692573631A00328A52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D463682573631A00328A52 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +57,9 @@
 		36194688256620AC00E3E7B2 /* PutStudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutStudentLocation.swift; sourceTree = "<group>"; };
 		361946922566250800E3E7B2 /* DeleteSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteSession.swift; sourceTree = "<group>"; };
 		36194697256626F200E3E7B2 /* GetUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserData.swift; sourceTree = "<group>"; };
+		3630C2E2257041CF00CF1BD3 /* OTMManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMManager.swift; sourceTree = "<group>"; };
 		36644090256439F600343107 /* oNtHEmAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oNtHEmAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36644093256439F600343107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36644095256439F600343107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36644097256439F600343107 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		3664409A256439F600343107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3664409C256439F700343107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,8 +80,9 @@
 		366AA6FE2569F41B005AEBF7 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		366AA7062569F54A005AEBF7 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		368EBF6D25659CBB00821A29 /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
-		368EBF762565B24000821A29 /* OTMCilent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMCilent.swift; sourceTree = "<group>"; };
+		368EBF762565B24000821A29 /* OTMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMClient.swift; sourceTree = "<group>"; };
 		368EBF7B2565C23E00821A29 /* OTMResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMResponse.swift; sourceTree = "<group>"; };
+		36D463682573631A00328A52 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/SceneDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +133,8 @@
 		36644092256439F600343107 /* oNtHEmAP */ = {
 			isa = PBXGroup;
 			children = (
+				36D463682573631A00328A52 /* SceneDelegate.swift */,
 				36644093256439F600343107 /* AppDelegate.swift */,
-				36644095256439F600343107 /* SceneDelegate.swift */,
 				368EBF7225659CC100821A29 /* Models */,
 				366440C625643F1E00343107 /* Views */,
 				366440C725643F2E00343107 /* Controllers */,
@@ -184,9 +186,10 @@
 		368EBF7225659CC100821A29 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				368EBF6D25659CBB00821A29 /* StudentLocation.swift */,
-				368EBF762565B24000821A29 /* OTMCilent.swift */,
+				368EBF762565B24000821A29 /* OTMClient.swift */,
+				3630C2E2257041CF00CF1BD3 /* OTMManager.swift */,
 				368EBF7B2565C23E00821A29 /* OTMResponse.swift */,
+				368EBF6D25659CBB00821A29 /* StudentLocation.swift */,
 				3619467E25661D5900E3E7B2 /* GetStudentLocation.swift */,
 				3619468325661FF100E3E7B2 /* PostStudentLocation.swift */,
 				36194688256620AC00E3E7B2 /* PutStudentLocation.swift */,
@@ -338,16 +341,17 @@
 				361946932566250800E3E7B2 /* DeleteSession.swift in Sources */,
 				36194698256626F200E3E7B2 /* GetUserData.swift in Sources */,
 				366AA6FF2569F41B005AEBF7 /* LoginResponse.swift in Sources */,
+				36D463692573631A00328A52 /* SceneDelegate.swift in Sources */,
 				36644098256439F600343107 /* LogInVC.swift in Sources */,
 				366AA6F52569F3B0005AEBF7 /* LoginError.swift in Sources */,
 				366440D72564559200343107 /* StudentLocationTableVC.swift in Sources */,
 				366AA6FA2569F3FE005AEBF7 /* LoginRequest.swift in Sources */,
 				366440DC256455C500343107 /* AddLocationVC.swift in Sources */,
 				36194689256620AC00E3E7B2 /* PutStudentLocation.swift in Sources */,
+				3630C2E3257041CF00CF1BD3 /* OTMManager.swift in Sources */,
 				3619467F25661D5900E3E7B2 /* GetStudentLocation.swift in Sources */,
 				36644094256439F600343107 /* AppDelegate.swift in Sources */,
-				368EBF772565B24000821A29 /* OTMCilent.swift in Sources */,
-				36644096256439F600343107 /* SceneDelegate.swift in Sources */,
+				368EBF772565B24000821A29 /* OTMClient.swift in Sources */,
 				368EBF7C2565C23E00821A29 /* OTMResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,6 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L73M8R7276;
 				INFOPLIST_FILE = oNtHEmAP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -543,6 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L73M8R7276;
 				INFOPLIST_FILE = oNtHEmAP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

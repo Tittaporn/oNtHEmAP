@@ -7,6 +7,5 @@
 
 import Foundation
 struct PutStudentLocation: Codable {
-    let updatedAt: Date
-    //let updatedAt: String
+    let updatedAt: String
 }
